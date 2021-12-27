@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.6f1 (c0fade0cc7e9) revision 12647134'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1165; Version 2009; 64bit' Language: 'pt' Physical Memory: 16335 MB
+OS: 'Windows 10 Home Single Language; OS build 19042.1415; Version 2009; 64bit' Language: 'pt' Physical Memory: 8060 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,233 +11,800 @@ C:\Program Files\Unity\Hub\Editor\2021.1.6f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/guimd/Desktop/Unity/apocalipse-zumbi-alura
+C:/Users/guimd/OneDrive/Documentos/GitHub/GameZumbi/apocalipse-zumbi
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63034
-Successfully changed project path to: C:/Users/guimd/Desktop/Unity/apocalipse-zumbi-alura
-C:/Users/guimd/Desktop/Unity/apocalipse-zumbi-alura
+61082
+Successfully changed project path to: C:/Users/guimd/OneDrive/Documentos/GitHub/GameZumbi/apocalipse-zumbi
+C:/Users/guimd/OneDrive/Documentos/GitHub/GameZumbi/apocalipse-zumbi
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 94.03 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 129.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/guimd/Desktop/Unity/apocalipse-zumbi-alura/Assets
+[Subsystems] Discovering subsystems at path C:/Users/guimd/OneDrive/Documentos/GitHub/GameZumbi/apocalipse-zumbi/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
     Vendor:   NVIDIA
-    VRAM:     4018 MB
-    Driver:   30.0.14.7212
+    VRAM:     3962 MB
+    Driver:   30.0.14.7196
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003709 seconds.
+Registered in 0.002621 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 95.79 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 204.09 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.754 seconds
+- Completed reload, in  2.882 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004274 seconds.
+Registered in 0.013633 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.29 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.181 seconds
+- Completed reload, in  1.934 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
-Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 9.03 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2708 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2709 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 99.5 MB.
+System memory in use after: 99.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3163.
+Total: 4.654900 ms (FindLiveObjects: 0.643000 ms CreateObjectMapping: 0.478700 ms MarkObjects: 3.443100 ms  DeleteObjects: 0.087900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/ControlaArma.cs
+  artifactKey: Guid(55e222cd2f71e1146b05802ca4fcc93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ControlaArma.cs using Guid(55e222cd2f71e1146b05802ca4fcc93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5fca9f436df2f0fa9504d7a1744e2f8') in 0.091257 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002786 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.176 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2703 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.4 MB.
 System memory in use after: 99.6 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3162.
-Total: 2.228800 ms (FindLiveObjects: 0.256000 ms CreateObjectMapping: 0.078100 ms MarkObjects: 1.834600 ms  DeleteObjects: 0.059000 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3166.
+Total: 2.384100 ms (FindLiveObjects: 0.286000 ms CreateObjectMapping: 0.194100 ms MarkObjects: 1.877700 ms  DeleteObjects: 0.024900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Audio/Som_Dano_01.ogg
-  artifactKey: Guid(7c9e32b97381eba46bd92cfeb291d75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Som_Dano_01.ogg using Guid(7c9e32b97381eba46bd92cfeb291d75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39c602fa5ab18bc0c3cf80449463510') in 0.162646 seconds 
+  Time since last request: 316.739722 seconds.
+  path: Assets/Scripts/ControlaArma.cs
+  artifactKey: Guid(55e222cd2f71e1146b05802ca4fcc93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ControlaArma.cs using Guid(55e222cd2f71e1146b05802ca4fcc93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89066e816eded237509a60fca14ff542') in 0.006309 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Audio/Morte_Zumbi_01.ogg
-  artifactKey: Guid(8b120f179d0e78e469317bcc8ef6b40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Morte_Zumbi_01.ogg using Guid(8b120f179d0e78e469317bcc8ef6b40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ba6482167772f77f0b11bc2ccee0cc') in 0.020687 seconds 
+  Time since last request: 432.062980 seconds.
+  path: Assets/Prefabs/Ambiente
+  artifactKey: Guid(d6ce329bdc3dc40469f1fb1d920f6c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ambiente using Guid(d6ce329bdc3dc40469f1fb1d920f6c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0566a1a727c70bdf2c4797888b75d7c3') in 0.013430 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.672122 seconds.
-  path: Assets/Audio/Som_Tiro_01.ogg
-  artifactKey: Guid(a3e1ede5cabcbda4eae544be69c9e195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Som_Tiro_01.ogg using Guid(a3e1ede5cabcbda4eae544be69c9e195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6bc23df983a3766a9cb77e2bbe78e68') in 0.012393 seconds 
+  Time since last request: 3.582706 seconds.
+  path: Assets/Prefabs/Construcoes/Casa_Media_Destruido_01.prefab
+  artifactKey: Guid(416b5ff6235174e4ca3dbb462222faeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Casa_Media_Destruido_01.prefab using Guid(416b5ff6235174e4ca3dbb462222faeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33b7ccb3bacdb2c2eb99a7d509af82a') in 0.156069 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.022716 seconds.
-  path: Assets/Audio/Som_Zumbi_01.ogg
-  artifactKey: Guid(ca08ed0744ee5e048ae5087d53484c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Som_Zumbi_01.ogg using Guid(ca08ed0744ee5e048ae5087d53484c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a99cab08ca646b854483eca625a0a8') in 0.013140 seconds 
+  Time since last request: 0.563584 seconds.
+  path: Assets/Prefabs/Construcoes/Casa_Pequena_Destruido_01.prefab
+  artifactKey: Guid(34c02d18d96e148c3bf6b0cc2ee213ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Casa_Pequena_Destruido_01.prefab using Guid(34c02d18d96e148c3bf6b0cc2ee213ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19c41665e83ee5b99ebfb15c60e99ac') in 0.025279 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.962842 seconds.
-  path: Assets/Audio/You_Cant_Dodge_a_Laser_01.ogg
-  artifactKey: Guid(2388a1c32c8ef594b976bc2aff440a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/You_Cant_Dodge_a_Laser_01.ogg using Guid(2388a1c32c8ef594b976bc2aff440a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcaa0144d738163a45fdbce4f8f7496a') in 0.016243 seconds 
+  Time since last request: 0.809878 seconds.
+  path: Assets/Prefabs/Construcoes/Hospital_Destruido.prefab
+  artifactKey: Guid(13d674784a3b5403181721c90d2cf25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Hospital_Destruido.prefab using Guid(13d674784a3b5403181721c90d2cf25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb26c678c50df8380bb95a6ffb9d7dc') in 0.023682 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.525449 seconds.
-  path: Assets/Audio/Zero_G_Repairs_01.ogg
-  artifactKey: Guid(d8d3d2cf790315b4896809384e5b5789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Zero_G_Repairs_01.ogg using Guid(d8d3d2cf790315b4896809384e5b5789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449b5d25e082ba1450cd163d2d66037c') in 0.013756 seconds 
+  Time since last request: 0.823477 seconds.
+  path: Assets/Prefabs/Construcoes/Hospital_Entrada_Destruido.prefab
+  artifactKey: Guid(1add1b0daa1624e3ea6e43bdcef050e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Hospital_Entrada_Destruido.prefab using Guid(1add1b0daa1624e3ea6e43bdcef050e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267e0b275fae9e25323c77dabaaad2ff') in 0.024327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.373660 seconds.
+  path: Assets/Prefabs/Construcoes/Loja_Destruido_07.prefab
+  artifactKey: Guid(6da5b512f235b47be933513481860a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Loja_Destruido_07.prefab using Guid(6da5b512f235b47be933513481860a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb1a3e3ef7618f3255bfda65e9ea85d') in 0.024798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.786798 seconds.
+  path: Assets/Prefabs/Construcoes/LojaFerramentas_Destruido.prefab
+  artifactKey: Guid(32356e952c0244709bdf91f6f35489fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/LojaFerramentas_Destruido.prefab using Guid(32356e952c0244709bdf91f6f35489fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd7f54ae2b6fe20a338afbd04be8acb') in 0.021515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.278255 seconds.
+  path: Assets/Modelos3D/Ambiente/Concreto.fbx
+  artifactKey: Guid(76254b4a1339aa24aa6f075338cc3176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Ambiente/Concreto.fbx using Guid(76254b4a1339aa24aa6f075338cc3176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0df7f162e6eb12e926e1c73b48975e0') in 0.101709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Modelos3D/Ambiente/Concreto_Destruido.fbx
+  artifactKey: Guid(5a27a61256eef7c44b6503578d5bcb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Ambiente/Concreto_Destruido.fbx using Guid(5a27a61256eef7c44b6503578d5bcb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabee50f4904c52a148e442c7f3ec109') in 0.030762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Prefabs/Ambiente/Concreto.prefab
+  artifactKey: Guid(c9f0de4d804d840c383edaaac31b4816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ambiente/Concreto.prefab using Guid(c9f0de4d804d840c383edaaac31b4816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d904af96a60764da0fb26d899e0259') in 0.023053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Prefabs/Ambiente/Concreto_Destruido.prefab
+  artifactKey: Guid(6488e0f5cce444ddeb6c3d72343e89bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ambiente/Concreto_Destruido.prefab using Guid(6488e0f5cce444ddeb6c3d72343e89bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd8710aac10b295197281d9f7323bd8') in 0.017781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 448.498429 seconds.
+  path: Assets/Modelos3D/Aderecos/ConeDeRua.fbx
+  artifactKey: Guid(e19083493f4d02041b25b9d8d06292dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Aderecos/ConeDeRua.fbx using Guid(e19083493f4d02041b25b9d8d06292dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074219c4a7269f16251ac2ee0fad267d') in 0.065289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Modelos3D/Ambiente/Rua_Cruz.fbx
+  artifactKey: Guid(48fbb206d26b0fd4db4b8c24d3e67104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Ambiente/Rua_Cruz.fbx using Guid(48fbb206d26b0fd4db4b8c24d3e67104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b890cc4667254207f81fcc41a3beaef7') in 0.029769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Prefabs/Ambiente/Rua_Curva_Direita_01.prefab
+  artifactKey: Guid(c3eb3bd04d2324d16a0fd5fe37b39085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ambiente/Rua_Curva_Direita_01.prefab using Guid(c3eb3bd04d2324d16a0fd5fe37b39085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a6a80cd55707c2dbdaaa3f30410f1b') in 0.024429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Prefabs/Ambiente/Rua_Cruz.prefab
+  artifactKey: Guid(8f35cfd7f2f494ec987c0f3b081fbee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ambiente/Rua_Cruz.prefab using Guid(8f35cfd7f2f494ec987c0f3b081fbee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4927a53faee18b249a2ac6b03ee5f0e3') in 0.017202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Modelos3D/Ambiente/Rua_Cruz_Destruido.fbx
+  artifactKey: Guid(1624998e2bde87248b984d1e371f53df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Ambiente/Rua_Cruz_Destruido.fbx using Guid(1624998e2bde87248b984d1e371f53df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43d19306cd9f063175d41c7b4b66252') in 0.029284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Prefabs/Aderecos/ConeDeRua.prefab
+  artifactKey: Guid(ca5dec58f3e5c4a6e8e13586500f0e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Aderecos/ConeDeRua.prefab using Guid(ca5dec58f3e5c4a6e8e13586500f0e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a698d4bfdc796a8aa63e813d5ca9a39') in 0.020557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Modelos3D/Ambiente/Rua_Curva_Direita_01.fbx
+  artifactKey: Guid(98896959725bc6747990c46e40a868fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Ambiente/Rua_Curva_Direita_01.fbx using Guid(98896959725bc6747990c46e40a868fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbe0989c8fa2945cbdbfe9c1f00b423') in 0.022234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Modelos3D/Ambiente/Rua_Canto.fbx
+  artifactKey: Guid(f1c4e7cad77043d4eb1da10b11215f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Ambiente/Rua_Canto.fbx using Guid(f1c4e7cad77043d4eb1da10b11215f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69e4e6ee7dca92d4b09cd28b9831ff8') in 0.032278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000662 seconds.
+  path: Assets/Prefabs/Ambiente/Rua_Canto.prefab
+  artifactKey: Guid(68d2e588be11c45b5bcef522aa3f7cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ambiente/Rua_Canto.prefab using Guid(68d2e588be11c45b5bcef522aa3f7cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8024a1a4dd6185008483e0e3cdd461a1') in 0.016659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Prefabs/Ambiente/Rua_Cruz_Destruido.prefab
+  artifactKey: Guid(951d2e6b926174346bb90f32e564a716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ambiente/Rua_Cruz_Destruido.prefab using Guid(951d2e6b926174346bb90f32e564a716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ffecce9a24f99c261b3c44667794ad3') in 0.019009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Prefabs/Ambiente/Rua_Curva_Esquerda_01.prefab
+  artifactKey: Guid(c3cca40f90d3840e18a0e6d3f39a8310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ambiente/Rua_Curva_Esquerda_01.prefab using Guid(c3cca40f90d3840e18a0e6d3f39a8310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38e00f6f7595f0847a3a11e1283d6ee') in 0.020875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.353301 seconds.
+  path: Assets/Modelos3D/Ambiente/Rua_Curva_Esquerda_01.fbx
+  artifactKey: Guid(ee1f0c613d9004d4ba64c7b09e68ca52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Ambiente/Rua_Curva_Esquerda_01.fbx using Guid(ee1f0c613d9004d4ba64c7b09e68ca52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d7fe4f4e08197faf3688dd620f37df') in 0.036510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Prefabs/Ambiente/Rua_Destruido.prefab
+  artifactKey: Guid(5a1120ee5136945d3bccabf5a9f29933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ambiente/Rua_Destruido.prefab using Guid(5a1120ee5136945d3bccabf5a9f29933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1912cb0b6c98055a9610de882372e51e') in 0.021287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.083948 seconds.
+  path: Assets/Modelos3D/Ambiente/Rua_Destruido.fbx
+  artifactKey: Guid(50e2f60b4cb03bc4697739fcbcc6f157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Ambiente/Rua_Destruido.fbx using Guid(50e2f60b4cb03bc4697739fcbcc6f157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7957210998883059b0dea34ae0a10f53') in 0.019857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Modelos3D/Ambiente/Rua_FaixaDePedestre_01.fbx
+  artifactKey: Guid(5f516ac64a098ac48ab9668b40be6d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Ambiente/Rua_FaixaDePedestre_01.fbx using Guid(5f516ac64a098ac48ab9668b40be6d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56597394545167f546060c81049a20f') in 0.027513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.474129 seconds.
+  path: Assets/Prefabs/Ambiente/Rua_FaixaDePedestre_01.prefab
+  artifactKey: Guid(0ed558ca472d74487967f521f5e503d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ambiente/Rua_FaixaDePedestre_01.prefab using Guid(0ed558ca472d74487967f521f5e503d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2509d8a1abb7122d436df8fba4cadc3a') in 0.030585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Prefabs/Ambiente/Rua_Quadrado.prefab
+  artifactKey: Guid(0ad97ea479e1e4c6e941563750dbf44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ambiente/Rua_Quadrado.prefab using Guid(0ad97ea479e1e4c6e941563750dbf44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e137d0e5c9ff591cced2e6479ebed6b') in 0.023253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.082917 seconds.
+  path: Assets/Modelos3D/Ambiente/Rua_Quadrado.fbx
+  artifactKey: Guid(e22934d861474164ba5defc4cfab628e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Ambiente/Rua_Quadrado.fbx using Guid(e22934d861474164ba5defc4cfab628e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079f3322b28bbc6667bdc251a87e44ff') in 0.019064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Modelos3D/Ambiente/Rua_Reta.fbx
+  artifactKey: Guid(1f634d818d14cbc4eadbdf6d2bbd35c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Ambiente/Rua_Reta.fbx using Guid(1f634d818d14cbc4eadbdf6d2bbd35c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26468913f4219fda40b1f72ba583b2af') in 0.034381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.113679 seconds.
+  path: Assets/Prefabs/Ambiente/Rua_Reta.prefab
+  artifactKey: Guid(bf4e53320739441f58d231c2ee884b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ambiente/Rua_Reta.prefab using Guid(bf4e53320739441f58d231c2ee884b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384f2f364d7be27f15df981ab18dddab') in 0.053811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/Modelos3D/Ambiente/Rua_Reta_Destruido.fbx
+  artifactKey: Guid(50ef5f6555fc8d1449e69d8ec0e2a76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Ambiente/Rua_Reta_Destruido.fbx using Guid(50ef5f6555fc8d1449e69d8ec0e2a76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79588dac445c4c4061a9af316e0c47e') in 0.028699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.169232 seconds.
+  path: Assets/Prefabs/Ambiente/Rua_Reta_Destruido.prefab
+  artifactKey: Guid(47e46aa59b0de4f1d8340027646da715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ambiente/Rua_Reta_Destruido.prefab using Guid(47e46aa59b0de4f1d8340027646da715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c94e39ab49bd89161b82ea1a4e5702') in 0.040413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/Prefabs/Ambiente/Rua_Reta_Grande_Destruido.prefab
+  artifactKey: Guid(165c63e06bedd476890c8366e8b09d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ambiente/Rua_Reta_Grande_Destruido.prefab using Guid(165c63e06bedd476890c8366e8b09d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2770b2f8545ee173699cb9beea49689') in 0.032878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.116425 seconds.
+  path: Assets/Modelos3D/Ambiente/Rua_Reta_Grande_Destruido.fbx
+  artifactKey: Guid(fc45cef01b5b9cd4d9a324b27cc37a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Ambiente/Rua_Reta_Grande_Destruido.fbx using Guid(fc45cef01b5b9cd4d9a324b27cc37a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3093dc9c8b03675b32c52cc7b1817cee') in 0.051656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Modelos3D/Ambiente/Rua_Reta_Grande_Destruido_02.fbx
+  artifactKey: Guid(37810bb65b7a4e54ca574e4dd07c0987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Ambiente/Rua_Reta_Grande_Destruido_02.fbx using Guid(37810bb65b7a4e54ca574e4dd07c0987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca0c173ac5ac5eb1bdcb0f931f78554') in 0.045216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Prefabs/Ambiente/Rua_Reta_Grande_Destruido_05.prefab
+  artifactKey: Guid(65666f9a15a8a4e3784ca7b588e77868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ambiente/Rua_Reta_Grande_Destruido_05.prefab using Guid(65666f9a15a8a4e3784ca7b588e77868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e77dab5912f85485d54e1f6dae394c1') in 0.022141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000574 seconds.
+  path: Assets/Prefabs/Ambiente/Rua_Reta_Grande_Destruido_04.prefab
+  artifactKey: Guid(2e405b93930f84c8e865cf6973ffe431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ambiente/Rua_Reta_Grande_Destruido_04.prefab using Guid(2e405b93930f84c8e865cf6973ffe431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b220a73155d40fc10fdcc6bf1d866e1b') in 0.028615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Prefabs/Ambiente/Rua_Reta_Grande_Destruido_02.prefab
+  artifactKey: Guid(3623014e57a5d4438ad08b4c92f8005f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ambiente/Rua_Reta_Grande_Destruido_02.prefab using Guid(3623014e57a5d4438ad08b4c92f8005f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df1dfbb8405922562f7e957670f1b14') in 0.024079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Modelos3D/Ambiente/Rua_Reta_Grande_Destruido_04.fbx
+  artifactKey: Guid(4e7b61c61bf15844bb0b6e1c2877d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Ambiente/Rua_Reta_Grande_Destruido_04.fbx using Guid(4e7b61c61bf15844bb0b6e1c2877d7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7451dc56d68a89e2adf87627cebb8bfc') in 0.019251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Prefabs/Ambiente/Rua_Reta_Grande_Destruido_03.prefab
+  artifactKey: Guid(5e34baacfa1cf486d864bca83e6bd6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ambiente/Rua_Reta_Grande_Destruido_03.prefab using Guid(5e34baacfa1cf486d864bca83e6bd6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be65a2c8b2c976fac04786e2e58a9c9') in 0.023865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Modelos3D/Ambiente/Rua_Reta_Grande_Destruido_03.fbx
+  artifactKey: Guid(fe25a44f1bc84cb41810868b5d1e9386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Ambiente/Rua_Reta_Grande_Destruido_03.fbx using Guid(fe25a44f1bc84cb41810868b5d1e9386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c4c3d7665ddb845d4487cd74e359d5') in 0.018280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Modelos3D/Ambiente/Rua_Reta_Grande_Destruido_01.fbx
+  artifactKey: Guid(ec94d35107865384b8c6fbbd7d872043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Ambiente/Rua_Reta_Grande_Destruido_01.fbx using Guid(ec94d35107865384b8c6fbbd7d872043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ae86e86c1b4485abeae1cd120abff1') in 0.029193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Prefabs/Ambiente/Rua_Reta_Grande_Destruido_01.prefab
+  artifactKey: Guid(a4458a005c6f447888ae058d01ed4041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ambiente/Rua_Reta_Grande_Destruido_01.prefab using Guid(a4458a005c6f447888ae058d01ed4041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15045633bd65e475a17ce5b68fa6735') in 0.017529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.895192 seconds.
+  path: Assets/Modelos3D/Ambiente/Quadra.fbx
+  artifactKey: Guid(ddd402de8d1820b4b8dcf877167a31ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos3D/Ambiente/Quadra.fbx using Guid(ddd402de8d1820b4b8dcf877167a31ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c89b2829dc0b291d148760b997ab605') in 0.031880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 229.939361 seconds.
+  path: Assets/Prefabs/Itens/ComidaEnlatada_01.prefab
+  artifactKey: Guid(dc1074958556e4b2f8de7cc12f01c311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Itens/ComidaEnlatada_01.prefab using Guid(dc1074958556e4b2f8de7cc12f01c311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62acce2c56108141331ec7748ff0289c') in 0.029413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.452405 seconds.
+  path: Assets/Prefabs/Itens/ComidaEnlatada_03.prefab
+  artifactKey: Guid(5d1dcf1064edf4ded89ff293a2cd5752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Itens/ComidaEnlatada_03.prefab using Guid(5d1dcf1064edf4ded89ff293a2cd5752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a02085e5fbcd884d6efcb31b6489913') in 0.025453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.412353 seconds.
+  path: Assets/Prefabs/Itens/ComidaEnlatada_04.prefab
+  artifactKey: Guid(8a65fd58c8d794276bbe2784f9d12ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Itens/ComidaEnlatada_04.prefab using Guid(8a65fd58c8d794276bbe2784f9d12ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e841e6b744a643001732c6ee0e881ba') in 0.019231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.364622 seconds.
+  path: Assets/Prefabs/Itens/Fosforos.prefab
+  artifactKey: Guid(b38ac6256c36d41ca91d79ce7a3d63b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Itens/Fosforos.prefab using Guid(b38ac6256c36d41ca91d79ce7a3d63b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3b92ba713dc9e0c17d31c2942bebc8') in 0.020116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.703655 seconds.
+  path: Assets/Prefabs/Itens/PapelHigienico.prefab
+  artifactKey: Guid(3634bf4deb860478984332b4d2191b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Itens/PapelHigienico.prefab using Guid(3634bf4deb860478984332b4d2191b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6613790c5c6cc77ef590e313b866ff55') in 0.017182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.452416 seconds.
+  path: Assets/Prefabs/Itens/WalkieTalkie.prefab
+  artifactKey: Guid(0f9c3e2bcaf9a4bfeaa89cb2e8f418c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Itens/WalkieTalkie.prefab using Guid(0f9c3e2bcaf9a4bfeaa89cb2e8f418c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d45684c021412c29686375623b9de10') in 0.021223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.049763 seconds.
+  path: Assets/Prefabs/Construcoes/Torre_Agua.prefab
+  artifactKey: Guid(97dc7f64ea9334b1bac4f23088382d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Torre_Agua.prefab using Guid(97dc7f64ea9334b1bac4f23088382d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b12a1c3c670ae1ef69d5141e35e2199') in 0.020359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.060081 seconds.
+  path: Assets/Prefabs/Construcoes/Trailer_Destruido.prefab
+  artifactKey: Guid(b84972cd6bed94c13959eb4ce6d50b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Trailer_Destruido.prefab using Guid(b84972cd6bed94c13959eb4ce6d50b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03bd148fbc5d019b8f22decb719b5edb') in 0.021693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.205695 seconds.
+  path: Assets/Prefabs/Bala.prefab
+  artifactKey: Guid(ae4db20239c322140a4e563c499e5632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bala.prefab using Guid(ae4db20239c322140a4e563c499e5632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a3277fd06f421d2a7a242061095243') in 0.024370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.072137 seconds.
+  path: Assets/Prefabs/Terra_Canto_01.prefab
+  artifactKey: Guid(0292b0ddcce794d498bb90f74e23c86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Terra_Canto_01.prefab using Guid(0292b0ddcce794d498bb90f74e23c86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19691cf08bcdc8a2a18931d21c824f2b') in 0.018853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.141096 seconds.
+  path: Assets/Prefabs/Aderecos/Arvore_02.prefab
+  artifactKey: Guid(75fc87cb504ce47c78ab9902f8b02b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Aderecos/Arvore_02.prefab using Guid(75fc87cb504ce47c78ab9902f8b02b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16773dde224e23ad3d00d37e07f8156') in 0.023217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.596744 seconds.
+  path: Assets/Prefabs/Aderecos/Arvore_03.prefab
+  artifactKey: Guid(add53d143e2ea4b9cbd24b57aa90d3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Aderecos/Arvore_03.prefab using Guid(add53d143e2ea4b9cbd24b57aa90d3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0865f10484edad874d9173092fd0ee') in 0.021494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.247684 seconds.
+  path: Assets/Prefabs/Aderecos/Barreira_02.prefab
+  artifactKey: Guid(ea23067f9f12846ca92a3ea83d019bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Aderecos/Barreira_02.prefab using Guid(ea23067f9f12846ca92a3ea83d019bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0d218c1a2df20f7d8c498e31100586') in 0.017332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.382531 seconds.
+  path: Assets/Prefabs/Aderecos/Barril_02.prefab
+  artifactKey: Guid(9a588a7b9daeb4955a3a0912a580bfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Aderecos/Barril_02.prefab using Guid(9a588a7b9daeb4955a3a0912a580bfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811950bf6ca5b603723352eb8a7876cb') in 0.020219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.116439 seconds.
+  path: Assets/Prefabs/Aderecos/Barril_01.prefab
+  artifactKey: Guid(2e5f433e1eec74e2eb58a49e612b7876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Aderecos/Barril_01.prefab using Guid(2e5f433e1eec74e2eb58a49e612b7876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f117c27e191130eabac8ca099168993') in 0.022434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.750341 seconds.
+  path: Assets/Prefabs/Aderecos/Barreira_03.prefab
+  artifactKey: Guid(9319b28f8643c48368041efb7a34990c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Aderecos/Barreira_03.prefab using Guid(9319b28f8643c48368041efb7a34990c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c106d1e29cd5548f81e780fe5b7568') in 0.020312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.221153 seconds.
+  path: Assets/Prefabs/Aderecos/Barreira_01.prefab
+  artifactKey: Guid(6ffe1bdcc4b5440768c45450fcade542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Aderecos/Barreira_01.prefab using Guid(6ffe1bdcc4b5440768c45450fcade542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6aab02c5be1d6bee0dfca61e6233053') in 0.009261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 125.722574 seconds.
+  path: Assets/Prefabs/Aderecos/Brinquedo_Balanco.prefab
+  artifactKey: Guid(35fce5f7d10754eceb462ecbab35c05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Aderecos/Brinquedo_Balanco.prefab using Guid(35fce5f7d10754eceb462ecbab35c05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4640eada102e2165cbf41f36514e6ae8') in 0.021051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.459983 seconds.
+  path: Assets/Prefabs/Aderecos/Brinquedo_Parque_Destruido.prefab
+  artifactKey: Guid(68ff88840697f4c73a726254f20a58f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Aderecos/Brinquedo_Parque_Destruido.prefab using Guid(68ff88840697f4c73a726254f20a58f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc30872ef8fcba364e0ebeea6a4d076a') in 0.020289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.211537 seconds.
+  path: Assets/Prefabs/Aderecos/Caixa_Municao_Aberta.prefab
+  artifactKey: Guid(a5a3a377163944f52b78e8a5789e65c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Aderecos/Caixa_Municao_Aberta.prefab using Guid(a5a3a377163944f52b78e8a5789e65c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf0f1611af341104263cf5fed6f6e49') in 0.021060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.749117 seconds.
+  path: Assets/Prefabs/Aderecos/Caixa.prefab
+  artifactKey: Guid(5c6cc2dd328b74354a2d50865a80d4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Aderecos/Caixa.prefab using Guid(5c6cc2dd328b74354a2d50865a80d4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152283f55f0dfea82d476cdd16eb68f6') in 0.017805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.244696 seconds.
+  path: Assets/Prefabs/Aderecos/Cerca_Destruido_03.prefab
+  artifactKey: Guid(1fd38d103f49346269a790a9818467cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Aderecos/Cerca_Destruido_03.prefab using Guid(1fd38d103f49346269a790a9818467cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed69e1a0b3adc4b33d344842eb6e57b') in 0.022645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.695597 seconds.
+  path: Assets/Prefabs/Aderecos/Churrasqueira.prefab
+  artifactKey: Guid(44dd137a6e1364c24a5ec79f5de3dcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Aderecos/Churrasqueira.prefab using Guid(44dd137a6e1364c24a5ec79f5de3dcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5496e69372b6e559cbea14bfce7a4644') in 0.031281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.003203 seconds.
+  path: Assets/Prefabs/Aderecos/Colchao_01.prefab
+  artifactKey: Guid(131c2625368ec4206ad73cece59f61f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Aderecos/Colchao_01.prefab using Guid(131c2625368ec4206ad73cece59f61f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3903554fe029c4121b5c002d3e8f880') in 0.037378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.732461 seconds.
+  path: Assets/Prefabs/Aderecos/Copo.prefab
+  artifactKey: Guid(0a37c3a4297e34a0d88a8ed2393688dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Aderecos/Copo.prefab using Guid(0a37c3a4297e34a0d88a8ed2393688dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca94a68f3b791ad6f0ed96eddcbc22d') in 0.020288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 83.952007 seconds.
+  path: Assets/Prefabs/Aderecos/Cerca_Continua_01.prefab
+  artifactKey: Guid(3f715056abeb9446fb0b5d697e133844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Aderecos/Cerca_Continua_01.prefab using Guid(3f715056abeb9446fb0b5d697e133844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f071d6bb38db11b6f34fced975374a') in 0.042909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.474327 seconds.
+  path: Assets/Prefabs/Aderecos/Cerca_01.prefab
+  artifactKey: Guid(f9d1115e0572e4b70b80a6d3a888c8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Aderecos/Cerca_01.prefab using Guid(f9d1115e0572e4b70b80a6d3a888c8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36fc5704acf24f5f0309e4d4166abb78') in 0.028563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.737462 seconds.
+  path: Assets/Prefabs/Aderecos/Cerca_Destruido_01.prefab
+  artifactKey: Guid(0df3d3f55394144f5b5757402d6a3f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Aderecos/Cerca_Destruido_01.prefab using Guid(0df3d3f55394144f5b5757402d6a3f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab52054e0c7fd1a81b4fe8d2f7bbf7bf') in 0.041992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 391.937255 seconds.
+  path: Assets/Prefabs/Aderecos/Destrocos_04.prefab
+  artifactKey: Guid(9a1574f1336f5458aa717a190abb0fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Aderecos/Destrocos_04.prefab using Guid(9a1574f1336f5458aa717a190abb0fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4247b36741524d8f2b248ec8a3469d') in 0.032266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.019901 seconds.
+  path: Assets/Prefabs/Construcoes/Apartamentos_Grande_Destruido_01.prefab
+  artifactKey: Guid(4cfc1632947444d57965ab47e7863660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Apartamentos_Grande_Destruido_01.prefab using Guid(4cfc1632947444d57965ab47e7863660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0fd12e9e7f1696fa6097bf1e8462789') in 0.023453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.842239 seconds.
+  path: Assets/Prefabs/Construcoes/Cafeteria_Destruido.prefab
+  artifactKey: Guid(95081098b1ca349549bce602f4b0bfa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Cafeteria_Destruido.prefab using Guid(95081098b1ca349549bce602f4b0bfa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848835a4fc78bd33c021da37a2ab6bc0') in 0.056182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.450130 seconds.
+  path: Assets/Prefabs/Construcoes/Casa_Alta_Destruido_02.prefab
+  artifactKey: Guid(6e16ce19f1bb248b2b839473147cf761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Casa_Alta_Destruido_02.prefab using Guid(6e16ce19f1bb248b2b839473147cf761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7bf3322e5a712fc97082d8c881f284a') in 0.022792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.960978 seconds.
+  path: Assets/Prefabs/Construcoes/Casa_Alta_Destruido_03.prefab
+  artifactKey: Guid(ebe99be0bc845483aa125c3a81686c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Casa_Alta_Destruido_03.prefab using Guid(ebe99be0bc845483aa125c3a81686c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb26d24ec4e613c2afa9033bae51520') in 0.022614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.423080 seconds.
+  path: Assets/Prefabs/Construcoes/Casa_Destruido_01.prefab
+  artifactKey: Guid(fb103434f08824c6cbac03c4a9351aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Casa_Destruido_01.prefab using Guid(fb103434f08824c6cbac03c4a9351aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b01b2ca1e6e2a8d4bbbe7271a5155c6') in 0.027034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.714441 seconds.
+  path: Assets/Prefabs/Construcoes/Casa_Grande_Destruido_01.prefab
+  artifactKey: Guid(7ec4ee57398914fc8a08527e3999214c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Casa_Grande_Destruido_01.prefab using Guid(7ec4ee57398914fc8a08527e3999214c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383def7cf1cf71989348bd721d5da355') in 0.027109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.109030 seconds.
+  path: Assets/Prefabs/Construcoes/Casa_Grande_Destruido_02.prefab
+  artifactKey: Guid(40438569dc5484247969ecc96ac9d37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Casa_Grande_Destruido_02.prefab using Guid(40438569dc5484247969ecc96ac9d37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925bcdcec1a5b2992abfbe534d617427') in 0.023427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.271012 seconds.
+  path: Assets/Prefabs/Construcoes/Casa_Media_Destruido_02.prefab
+  artifactKey: Guid(f03ac3cbbce2d4642a5df83b679514db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Casa_Media_Destruido_02.prefab using Guid(f03ac3cbbce2d4642a5df83b679514db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14885f278a7dba495a0cc2f7d2474089') in 0.022722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.963469 seconds.
+  path: Assets/Prefabs/Construcoes/Casa_Media_Destruido_03.prefab
+  artifactKey: Guid(3323003d8d9a8449b84c156885bcfea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Casa_Media_Destruido_03.prefab using Guid(3323003d8d9a8449b84c156885bcfea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a1e838692b09485fea804bb73bdf64') in 0.023023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.920982 seconds.
+  path: Assets/Prefabs/Construcoes/Casa_Pequena_Destruido_02.prefab
+  artifactKey: Guid(f5469e928e88c420c9bf1e5965ef731c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Casa_Pequena_Destruido_02.prefab using Guid(f5469e928e88c420c9bf1e5965ef731c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31172272bf4c6bb4fb898d893808b761') in 0.022524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.916618 seconds.
+  path: Assets/Prefabs/Construcoes/Casa_Pequena_Destruido_03.prefab
+  artifactKey: Guid(909b0206a82f2403da74072a0275e921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Casa_Pequena_Destruido_03.prefab using Guid(909b0206a82f2403da74072a0275e921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc0557d41d59ce40824c463f69d2f99') in 0.022026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.132613 seconds.
+  path: Assets/Prefabs/Construcoes/GaleriaDeLojas_Destruido.prefab
+  artifactKey: Guid(eac7d4127990742bd968697c3943f981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/GaleriaDeLojas_Destruido.prefab using Guid(eac7d4127990742bd968697c3943f981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7557941e9b33206e843cba74e6eba45') in 0.026857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.704828 seconds.
+  path: Assets/Prefabs/Construcoes/Hospital.prefab
+  artifactKey: Guid(af85de14b9e7c4fbf83d21e1ce324189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Hospital.prefab using Guid(af85de14b9e7c4fbf83d21e1ce324189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d2e213f005fe76c717af1f5be8ad4c') in 0.020179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.143539 seconds.
+  path: Assets/Prefabs/Construcoes/Hospital_Entrada.prefab
+  artifactKey: Guid(de66043a35a594a249c108c1a631a58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Hospital_Entrada.prefab using Guid(de66043a35a594a249c108c1a631a58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87852bb26d16815f103ebe2f85f62eed') in 0.025945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.055960 seconds.
+  path: Assets/Prefabs/Construcoes/Hotel_Destruido.prefab
+  artifactKey: Guid(e94d4b6ee7ad7b94a964f59b951ddaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Hotel_Destruido.prefab using Guid(e94d4b6ee7ad7b94a964f59b951ddaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3f2b75abdb750c018d3c8dbdda72ba') in 0.058837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 116.756264 seconds.
+  path: Assets/Scripts/ControlaZumbi.cs
+  artifactKey: Guid(8c47cfa79af56aa42a50057c9d19f4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ControlaZumbi.cs using Guid(8c47cfa79af56aa42a50057c9d19f4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7334e7f55fcafe99682cd0fcc5d5d087') in 0.010111 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004193 seconds.
+Registered in 0.003080 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.136 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2702 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.0 MB.
-System memory in use after: 103.2 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3174.
-Total: 2.287500 ms (FindLiveObjects: 0.340100 ms CreateObjectMapping: 0.079300 ms MarkObjects: 1.849600 ms  DeleteObjects: 0.016900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 587.647184 seconds.
-  path: Assets/Botao_Amarelo01.png
-  artifactKey: Guid(6b6fce0f23a72c14da0ebdc3f533dd9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Botao_Amarelo01.png using Guid(6b6fce0f23a72c14da0ebdc3f533dd9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceff048e6f01f7645eb660882d565761') in 0.079317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.845359 seconds.
-  path: Assets/game.unity
-  artifactKey: Guid(c4c3a015074373c498c14e20c7b5103f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/game.unity using Guid(c4c3a015074373c498c14e20c7b5103f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6c0a1877fa7c59acd0820a001142e9') in 0.008227 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.656111 seconds.
-  path: Assets/Mira.png
-  artifactKey: Guid(1438ecf66cee7d74e91d13c29bec0f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mira.png using Guid(1438ecf66cee7d74e91d13c29bec0f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e05ebd16b47d1849b479982d52c412') in 0.013655 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.173774 seconds.
-  path: Assets/Scripts/ControlaAudio.cs
-  artifactKey: Guid(e824ea14f6310e84cab78851fd2ecbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ControlaAudio.cs using Guid(e824ea14f6310e84cab78851fd2ecbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334359bc0ed65afa1b31a27311d4344d') in 0.024535 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004740 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.125 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2705 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.0 MB.
-System memory in use after: 104.2 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3210.
-Total: 2.618700 ms (FindLiveObjects: 0.299100 ms CreateObjectMapping: 0.082700 ms MarkObjects: 2.209400 ms  DeleteObjects: 0.025800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.010871 seconds.
-  path: Assets/Scripts/ControlaBala.cs
-  artifactKey: Guid(16e1106cd35d03c4b9f527d337f9ee0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ControlaBala.cs using Guid(16e1106cd35d03c4b9f527d337f9ee0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc25e4ecdef4fb85fffc3c1e33692e0f') in 0.011540 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004551 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.094 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2703 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.9 MB.
-System memory in use after: 104.2 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3213.
-Total: 2.829200 ms (FindLiveObjects: 0.295900 ms CreateObjectMapping: 0.079900 ms MarkObjects: 2.418600 ms  DeleteObjects: 0.033100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004366 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.163 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.276 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2703 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.0 MB.
-System memory in use after: 104.2 MB.
+System memory in use before: 103.5 MB.
+System memory in use after: 103.7 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3216.
-Total: 2.585500 ms (FindLiveObjects: 0.425300 ms CreateObjectMapping: 0.083600 ms MarkObjects: 2.059200 ms  DeleteObjects: 0.015600 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3180.
+Total: 2.806600 ms (FindLiveObjects: 0.293300 ms CreateObjectMapping: 0.185100 ms MarkObjects: 2.300600 ms  DeleteObjects: 0.026400 ms)
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004401 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.132 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2703 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.0 MB.
-System memory in use after: 104.2 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3219.
-Total: 2.536900 ms (FindLiveObjects: 0.293800 ms CreateObjectMapping: 0.082700 ms MarkObjects: 2.134100 ms  DeleteObjects: 0.025100 ms)
-
+Received Import Request.
+  Time since last request: 61.589239 seconds.
+  path: Assets/Scripts/ControlaZumbi.cs
+  artifactKey: Guid(8c47cfa79af56aa42a50057c9d19f4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ControlaZumbi.cs using Guid(8c47cfa79af56aa42a50057c9d19f4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006a36e7bed50ec1a8c026604f714a2a') in 0.011640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 454.555186 seconds.
+  path: Assets/Prefabs/Ambiente/Rua_Reta_Grande_Destruido_06.prefab
+  artifactKey: Guid(6b2b4dd5fec8e4c32b71936101bbf862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ambiente/Rua_Reta_Grande_Destruido_06.prefab using Guid(6b2b4dd5fec8e4c32b71936101bbf862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbe1fbba428c8b41d82ba6aa2e3dc12') in 0.121593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.037702 seconds.
+  path: Assets/Prefabs/Construcoes/Casa_Alta_Destruido_01.prefab
+  artifactKey: Guid(059b6d7e8cd694c3db3218002918f7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Casa_Alta_Destruido_01.prefab using Guid(059b6d7e8cd694c3db3218002918f7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37dea977e28fb8b242d294b2ee0b5f81') in 0.023905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.026451 seconds.
+  path: Assets/Prefabs/Construcoes/Casa_Destruido_02.prefab
+  artifactKey: Guid(3038d8e64b30a45758a2c794581af21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Casa_Destruido_02.prefab using Guid(3038d8e64b30a45758a2c794581af21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc9be4f4a089d77c42b8be152825bf4') in 0.023195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.894868 seconds.
+  path: Assets/Prefabs/Construcoes/Hotel_Estacionamento_Destruido.prefab
+  artifactKey: Guid(0b714fb1695247b4e93ce06f5a3ba1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Hotel_Estacionamento_Destruido.prefab using Guid(0b714fb1695247b4e93ce06f5a3ba1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd7c163537b851fc2fea80b89f6cc43') in 0.054595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.738889 seconds.
+  path: Assets/Prefabs/Construcoes/Hotel_Placa.prefab
+  artifactKey: Guid(ffcbfd5563b81402fa99efcd98ed9a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Hotel_Placa.prefab using Guid(ffcbfd5563b81402fa99efcd98ed9a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96e99b26f482df7c0cb69fae025e124') in 0.023120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.411500 seconds.
+  path: Assets/Prefabs/Construcoes/Hotel_Secundario_Destruido.prefab
+  artifactKey: Guid(865d1d7b1bfbebe4bbe2555e992eb974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Hotel_Secundario_Destruido.prefab using Guid(865d1d7b1bfbebe4bbe2555e992eb974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b7715d5991b60f23b25cd9fdecf6e0') in 0.030556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.711746 seconds.
+  path: Assets/Prefabs/Construcoes/Predio_Comercial_Destruido_04.prefab
+  artifactKey: Guid(284159092372e4a9b897672fcded70aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Predio_Comercial_Destruido_04.prefab using Guid(284159092372e4a9b897672fcded70aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b2ceab20d065c9490396a496cb3ec5') in 0.019499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.457516 seconds.
+  path: Assets/Prefabs/Construcoes/Predio_Comercial_Destruido_02.prefab
+  artifactKey: Guid(45f54f4435f5141a4a9c02612d8e0c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Predio_Comercial_Destruido_02.prefab using Guid(45f54f4435f5141a4a9c02612d8e0c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afce529f7c99edf047a6062b36438ed4') in 0.024245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.591522 seconds.
+  path: Assets/Prefabs/Construcoes/Predio_Comercial_Destruido_03.prefab
+  artifactKey: Guid(d48c4751b011a482eb2476af6830afe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Predio_Comercial_Destruido_03.prefab using Guid(d48c4751b011a482eb2476af6830afe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91e7ea42aed68f03b3f3a5c3096f71d') in 0.023274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.454691 seconds.
+  path: Assets/Prefabs/Construcoes/Predio_Comercial_Destruido_05.prefab
+  artifactKey: Guid(05eb9e62b0ab4448dbc48133ae89fdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Predio_Comercial_Destruido_05.prefab using Guid(05eb9e62b0ab4448dbc48133ae89fdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7f5efec3bdafc8493aca952225c186') in 0.021456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.615230 seconds.
+  path: Assets/Prefabs/Construcoes/Predio_Comercial_Destruido_07.prefab
+  artifactKey: Guid(b676e0ba23f8543e5b687c3c4a3e2776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Predio_Comercial_Destruido_07.prefab using Guid(b676e0ba23f8543e5b687c3c4a3e2776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2f6d10fea3db5f342dc39342235675') in 0.026729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.903341 seconds.
+  path: Assets/Prefabs/Construcoes/Predio_Destruido_01.prefab
+  artifactKey: Guid(f47a490faaf1d4f58b84e68881133fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Predio_Destruido_01.prefab using Guid(f47a490faaf1d4f58b84e68881133fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c9d12c6135b6d128a293848e1db9ae') in 0.019902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.839379 seconds.
+  path: Assets/Prefabs/Construcoes/Predio_Destruido_03.prefab
+  artifactKey: Guid(86e9ee220058d48aa8c4f8401c66c19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Predio_Destruido_03.prefab using Guid(86e9ee220058d48aa8c4f8401c66c19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81231405a634f73420774db6ef52ce73') in 0.023086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.517428 seconds.
+  path: Assets/Prefabs/Construcoes/Predio_Comercial_Destruido_06.prefab
+  artifactKey: Guid(ec8fae91bf97f42ae8527b29be8ca952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Predio_Comercial_Destruido_06.prefab using Guid(ec8fae91bf97f42ae8527b29be8ca952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec7750eb25b2154abc373da44b79424') in 0.022164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 154.833330 seconds.
+  path: Assets/Prefabs/Construcoes/Predio_Comercial_Destruido_08.prefab
+  artifactKey: Guid(9ecc591fb23494d309a91f2f66073c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Predio_Comercial_Destruido_08.prefab using Guid(9ecc591fb23494d309a91f2f66073c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962fc828a9bb72a9bdd8fede4c87b51c') in 0.024851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.353997 seconds.
+  path: Assets/Prefabs/Construcoes/Prefeitura_Destruida.prefab
+  artifactKey: Guid(420967ed02c744a0c929c42931c3868b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Prefeitura_Destruida.prefab using Guid(420967ed02c744a0c929c42931c3868b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac9b87c33908fd0b71bd627abab5b56') in 0.039734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.589619 seconds.
+  path: Assets/Prefabs/Construcoes/Restaurante.prefab
+  artifactKey: Guid(cb4c7a2172ada4cad863b78c0747c586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Restaurante.prefab using Guid(cb4c7a2172ada4cad863b78c0747c586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aed77df89ffe1bb51ad7a124cfc945f') in 0.025621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.725686 seconds.
+  path: Assets/Prefabs/Construcoes/Trailer_Estacionado_Destruido.prefab
+  artifactKey: Guid(7a4bc96ca24cb4c53bb328f746d7ba54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Trailer_Estacionado_Destruido.prefab using Guid(7a4bc96ca24cb4c53bb328f746d7ba54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae63e982d49ff552d90b264a5b9dddf') in 0.018308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.221259 seconds.
+  path: Assets/Prefabs/Construcoes/Loja_Destruido_04.prefab
+  artifactKey: Guid(5ba34cc0e3e4e41109617e362b536b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Loja_Destruido_04.prefab using Guid(5ba34cc0e3e4e41109617e362b536b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5528a95d03c948e23f741d2f531f7d') in 0.028521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.636909 seconds.
+  path: Assets/Prefabs/Construcoes/Loja_Destruido_05.prefab
+  artifactKey: Guid(4eece6fc288f449e49ea8c7318a245b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Loja_Destruido_05.prefab using Guid(4eece6fc288f449e49ea8c7318a245b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236f430da9888bdea0e7b9ab6886014f') in 0.053837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.239295 seconds.
+  path: Assets/Prefabs/Construcoes/Loja_Destruido_06.prefab
+  artifactKey: Guid(01beadeab9463430ab3c5d79971b707c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Loja_Destruido_06.prefab using Guid(01beadeab9463430ab3c5d79971b707c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec148b7ae22d667e6044107ffaf7e28c') in 0.043502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.846216 seconds.
+  path: Assets/Prefabs/Construcoes/Predio_Comercial_Destruido_01.prefab
+  artifactKey: Guid(7838d82f56cc54177bf8ef54183cac12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Predio_Comercial_Destruido_01.prefab using Guid(7838d82f56cc54177bf8ef54183cac12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ea012f6e1bbda42b471757dd846b2f') in 0.021604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.454288 seconds.
+  path: Assets/Prefabs/Construcoes/Predio_Apartamentos_Destruido.prefab
+  artifactKey: Guid(f8c2bd3ebd46d464997af19fb51b028d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Construcoes/Predio_Apartamentos_Destruido.prefab using Guid(f8c2bd3ebd46d464997af19fb51b028d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0259ecafcfc5dd732b20d62ef21c1fa2') in 0.020260 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

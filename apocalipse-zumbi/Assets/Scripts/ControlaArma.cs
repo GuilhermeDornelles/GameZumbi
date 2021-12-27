@@ -13,7 +13,7 @@ public class ControlaArma : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             Instantiate(bala, canoArma.transform.position, canoArma.transform.rotation);
-            ControlaAudio.instance.PlayOneShot(somTiro);
+            ControlaAudio.instance.PlayOneShot(somTiro);            
         }
     }
 }

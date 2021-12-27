@@ -12,7 +12,7 @@ public class ControlaZumbi : MonoBehaviour
     void Start()
     {
         jogador = GameObject.FindWithTag("Player");
-        int geraTipoZumbi = Random.RandomRange(1, 28);
+        int geraTipoZumbi = Random.Range(1, 28);
         transform.GetChild(geraTipoZumbi).gameObject.SetActive(true);
         rigidbodyZumbi = GetComponent<Rigidbody>();
         animatorZumbi = GetComponent<Animator>();        
