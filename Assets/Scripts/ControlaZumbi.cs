@@ -5,17 +5,16 @@ using UnityEngine;
 public class ControlaZumbi : MonoBehaviour
 {
     public GameObject jogador;
-    public float velocidade=1f;
-    private Animator animatorZumbi;
+    public float velocidade = 1f;
     private Movimentacao movimento;
+    private Animacao animacaoInimigo;
 
     void Start()
     {
-        jogador = GameObject.FindWithTag("Player");
-        int geraTipoZumbi = Random.Range(1, 28);
-        transform.GetChild(geraTipoZumbi).gameObject.SetActive(true);        
-        animatorZumbi = GetComponent<Animator>();
+        jogador = GameObject.FindWithTag("Player");        
+        animacaoInimigo = GetComponent<Animacao>();
         movimento = GetComponent<Movimentacao>();
+        aleatorizarZumbi();
     }
 
     private void FixedUpdate()
@@ -29,11 +28,11 @@ public class ControlaZumbi : MonoBehaviour
         if (distancia > 2.5)
         {
             movimento.movimentar(direcao, velocidade);
-            animatorZumbi.SetBool("Atacando", false);
+            animacaoInimigo.atacar(false);
         } 
         else
         {
-            animatorZumbi.SetBool("Atacando", true);
+            animacaoInimigo.atacar(true);
         }
     }
 
@@ -42,5 +41,11 @@ public class ControlaZumbi : MonoBehaviour
         int dano = Random.Range(20, 31);
         jogador.GetComponent<ControlaJogador>().tomarDano(dano);
         
+    }
+
+    void aleatorizarZumbi()
+    {
+        int geraTipoZumbi = Random.Range(1, 28);
+        transform.GetChild(geraTipoZumbi).gameObject.SetActive(true);
     }
 }
