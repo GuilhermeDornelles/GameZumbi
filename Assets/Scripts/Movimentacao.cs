@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Movimentacao : MonoBehaviour
 {
-    public Rigidbody rigidBody;
+    private Rigidbody rigidBody;
 
     void Awake()
     {
